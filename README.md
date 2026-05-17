@@ -2,7 +2,6 @@
   <img src="https://img.shields.io/badge/python-3.10%2B-blue?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.10+"/>
   <img src="https://img.shields.io/badge/NumPy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
   <img src="https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black" alt="Matplotlib"/>
-  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License: MIT"/>
   <img src="https://img.shields.io/badge/arXiv-1102.2490-b31b1b?style=for-the-badge&logo=arxiv&logoColor=white" alt="arXiv"/>
 </p>
 
@@ -23,6 +22,15 @@
   <a href="#algorithm">🧮 Algorithm</a> ·
   <a href="#api-reference">📖 API</a>
 </p>
+
+---
+
+## Author
+
+**Mohammad Asadolahi** — Senior Agentic AI Engineer
+
+- GitHub: [MohammadAsadolahi](https://github.com/MohammadAsadolahi)
+- Focus: Agentic AI Architectures In The Wild
 
 ---
 
@@ -226,10 +234,14 @@ plot_results(result)
 
 ```
 KL-UCB/
-├── kl_ucb.py              # Main implementation (algorithm + simulation + CLI)
-├── KL-UCB.ipynb            # Original research notebook
-├── kl_ucb_results.png      # Benchmark visualisation
-└── README.md               # This file
+├── kl_ucb.py                              # Main implementation (algorithm + simulation + CLI)
+├── KL-UCB.ipynb                           # Original research notebook
+├── kl_ucb_results.png                     # Combined benchmark visualisation
+├── K=2 and T=5000 and p=[0.1,0.9].png    # Easy scenario result
+├── K=2 and T=5000 and p=[0.4,0.7].png    # Moderate scenario result
+├── K=2 and T=5000 and p=[0.45,0.55].png  # Hard scenario result
+├── pseudocode.png                         # Algorithm pseudocode diagram
+└── README.md                              # This file
 ```
 
 ---
@@ -244,12 +256,4 @@ KL-UCB/
 
 ---
 
-## License
-
-This project is available under the [MIT License](LICENSE).
-
----
-
-<p align="center">
-  <sub>Built with rigour. Validated against theory. Ready for production.</sub>
-</p>
+this readme is AI assisted generated, so check for mistakes
